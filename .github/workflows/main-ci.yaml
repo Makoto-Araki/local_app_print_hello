@@ -1,9 +1,6 @@
-name: CI - Build & Test Windows App
+name: Main CI for Windows App
 
 on:
-  pull_request:
-    branches:
-      - main
   push:
     branches:
       - main
