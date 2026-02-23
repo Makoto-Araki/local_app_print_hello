@@ -31,8 +31,8 @@ jobs:
 
       - name: Security scan
         run: |
-        pip install pip-audit
-        pip-audit
+          pip install pip-audit
+          pip-audit
 
       - name: Build exe
         run: |
